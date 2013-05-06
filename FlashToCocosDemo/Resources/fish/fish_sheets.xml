@@ -1,0 +1,13 @@
+<Textures>
+  <TextureSheet name="fish">
+    <Texture name="fin_bottom3" width="46" height="30" path="fin_bottom3.png" registrationPointX="23.00" registrationPointY="15.00" zIndex="8"/>
+    <Texture name="tail" width="72" height="112" path="tail.png" registrationPointX="36.00" registrationPointY="56.00" zIndex="7"/>
+    <Texture name="fin_bottom1" width="44" height="44" path="fin_bottom1.png" registrationPointX="22.00" registrationPointY="22.00" zIndex="6"/>
+    <Texture name="fin_bottom2" width="46" height="30" path="fin_bottom2.png" registrationPointX="23.00" registrationPointY="15.00" zIndex="5"/>
+    <Texture name="fin_top" width="108" height="64" path="fin_top.png" registrationPointX="54.00" registrationPointY="32.00" zIndex="4"/>
+    <Texture name="body" width="188" height="100" path="body.png" registrationPointX="94.00" registrationPointY="51.00" zIndex="3"/>
+    <Texture name="eye" width="12" height="12" path="eye.png" registrationPointX="6.00" registrationPointY="6.00" zIndex="2"/>
+    <Texture name="head_bottom" width="70" height="56" path="head_bottom.png" registrationPointX="2.00" registrationPointY="2.00" zIndex="1"/>
+    <Texture name="head_top" width="49" height="42" path="head_top.png" registrationPointX="3.00" registrationPointY="2.00"/>
+  </TextureSheet>
+</Textures>
