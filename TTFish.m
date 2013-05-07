@@ -25,14 +25,6 @@
 
 -(void)toggleState
 {
-//    if(state == kWalk)
-//    {
-//        [self stopAnimation];
-//        state = kStand;
-//    }else
-//    {
-//        [self playAnimation:@"anim1" loop:YES wait:NO];
-//        state = kWalk;
-//    }
+
 }
 @end
