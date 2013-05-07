@@ -8,7 +8,7 @@
 
 
 #import <GameKit/GameKit.h>
-#import "TTCharacter.h"
+#import "TTFish.h"
 
 // When you import this file, you import all the cocos2d classes
 #import "cocos2d.h"
@@ -16,8 +16,8 @@
 // HelloWorldLayer
 @interface HelloWorldLayer : CCLayer <GKAchievementViewControllerDelegate, GKLeaderboardViewControllerDelegate>
 {
-    TTCharacter *dude;
-    TTCharacter *fish;
+    TTFish *dude;
+    TTFish *fish;
 }
 
 // returns a CCScene that contains the HelloWorldLayer as the only child

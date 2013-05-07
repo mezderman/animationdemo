@@ -1,5 +1,5 @@
 //
-//  TTCharacter.h
+//  TTFish.h
 //  FlashToCocosDemo
 //
 //  Created by Moshe Ezderman on 4/24/13.
@@ -13,7 +13,7 @@ typedef enum {
     kStand
 }CharacterState;
 
-@interface TTCharacter : FTCCharacter <FTCCharacterDelegate>
+@interface TTFish : FTCCharacter <FTCCharacterDelegate>
 
 -(id)init;
 -(void)toggleState;

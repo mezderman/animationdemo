@@ -1,14 +1,14 @@
 //
-//  TTCharacter.m
+//  TTFish.m
 //  FlashToCocosDemo
 //
 //  Created by Moshe Ezderman on 4/24/13.
 //
 //
 
-#import "TTCharacter.h"
+#import "TTFish.h"
 
-@implementation TTCharacter
+@implementation TTFish
 @synthesize state;
 
 -(id)init

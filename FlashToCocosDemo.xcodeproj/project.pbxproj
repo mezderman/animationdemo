@@ -140,7 +140,7 @@
 		055E0EDF1728850000BDDDC7 /* FTCFrameInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 055E0ED61728850000BDDDC7 /* FTCFrameInfo.m */; };
 		055E0EE01728850000BDDDC7 /* FTCParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 055E0ED81728850000BDDDC7 /* FTCParser.m */; };
 		055E0EE11728850000BDDDC7 /* FTCSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 055E0EDA1728850000BDDDC7 /* FTCSprite.m */; };
-		055E0EF7172885DA00BDDDC7 /* TTCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 055E0EF6172885DA00BDDDC7 /* TTCharacter.m */; };
+		055E0EF7172885DA00BDDDC7 /* TTFish.m in Sources */ = {isa = PBXBuildFile; fileRef = 055E0EF6172885DA00BDDDC7 /* TTFish.m */; };
 		055E0EFD17288A7E00BDDDC7 /* NSDataAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 055E0EFA17288A7E00BDDDC7 /* NSDataAdditions.m */; };
 		055E0EFE17288A7E00BDDDC7 /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 055E0EFC17288A7E00BDDDC7 /* TBXML.m */; };
 		05F9070F17380436008CF023 /* body.png in Resources */ = {isa = PBXBuildFile; fileRef = 05F9070417380433008CF023 /* body.png */; };
@@ -433,8 +433,8 @@
 		055E0ED81728850000BDDDC7 /* FTCParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTCParser.m; sourceTree = "<group>"; };
 		055E0ED91728850000BDDDC7 /* FTCSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTCSprite.h; sourceTree = "<group>"; };
 		055E0EDA1728850000BDDDC7 /* FTCSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTCSprite.m; sourceTree = "<group>"; };
-		055E0EF5172885DA00BDDDC7 /* TTCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTCharacter.h; path = ../TTCharacter.h; sourceTree = "<group>"; };
-		055E0EF6172885DA00BDDDC7 /* TTCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTCharacter.m; path = ../TTCharacter.m; sourceTree = "<group>"; };
+		055E0EF5172885DA00BDDDC7 /* TTFish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTFish.h; path = ../TTFish.h; sourceTree = "<group>"; };
+		055E0EF6172885DA00BDDDC7 /* TTFish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTFish.m; path = ../TTFish.m; sourceTree = "<group>"; };
 		055E0EF917288A7E00BDDDC7 /* NSDataAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataAdditions.h; sourceTree = "<group>"; };
 		055E0EFA17288A7E00BDDDC7 /* NSDataAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataAdditions.m; sourceTree = "<group>"; };
 		055E0EFB17288A7E00BDDDC7 /* TBXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBXML.h; sourceTree = "<group>"; };
@@ -508,8 +508,8 @@
 		055E0D451728621100BDDDC7 /* FlashToCocosDemo */ = {
 			isa = PBXGroup;
 			children = (
-				055E0EF5172885DA00BDDDC7 /* TTCharacter.h */,
-				055E0EF6172885DA00BDDDC7 /* TTCharacter.m */,
+				055E0EF5172885DA00BDDDC7 /* TTFish.h */,
+				055E0EF6172885DA00BDDDC7 /* TTFish.m */,
 				055E0EBD1728621300BDDDC7 /* AppDelegate.h */,
 				055E0EBE1728621300BDDDC7 /* AppDelegate.m */,
 				055E0EC01728621300BDDDC7 /* HelloWorldLayer.h */,
@@ -1126,7 +1126,7 @@
 				055E0EDF1728850000BDDDC7 /* FTCFrameInfo.m in Sources */,
 				055E0EE01728850000BDDDC7 /* FTCParser.m in Sources */,
 				055E0EE11728850000BDDDC7 /* FTCSprite.m in Sources */,
-				055E0EF7172885DA00BDDDC7 /* TTCharacter.m in Sources */,
+				055E0EF7172885DA00BDDDC7 /* TTFish.m in Sources */,
 				055E0EFD17288A7E00BDDDC7 /* NSDataAdditions.m in Sources */,
 				055E0EFE17288A7E00BDDDC7 /* TBXML.m in Sources */,
 			);

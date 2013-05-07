@@ -9,7 +9,7 @@
 
 // Import the interfaces
 #import "HelloWorldLayer.h"
-#import "TTCharacter.h"
+#import "TTFish.h"
 
 // Needed to obtain the Navigation Controller
 #import "AppDelegate.h"
@@ -47,7 +47,7 @@
 //        [self setPosition:ccp(200, 300)];
 //        [self addChild:dude];
         
-        fish = [[TTCharacter alloc]init];
+        fish = [[TTFish alloc]init];
         [self setPosition:ccp(200, 300)];
         [self addChild:fish];
 	}
